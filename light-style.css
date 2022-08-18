@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient(-20deg,#000000 20%,#000000 100%)no-repeat fixed top right;
+    background: linear-gradient(-20deg,#e88b9a 20%,#b4b5e9 100%)no-repeat fixed top right;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
@@ -15,8 +15,27 @@ h2 {
 h3{
     color: rgb(255, 255, 255);
     margin-top: 0;
+    font-size: 18px;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    margin-top: 0;
     font-size: 20px;
 }
+
+h5{
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    font-size: 15px; 
+}
+
+h6{
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    font-size: 15px; 
+}
+
 
 a {
     color: rgb(255, 255, 255);
@@ -60,6 +79,64 @@ a {
     box-shadow: 0 5px 20px 0 #27aaff,0px 0 0 5px #00ccff;
 }
 
+.list{
+    display: flex;
+    width: 100%;
+    border-top: 5px solid #a0f1ea;
+}
+.listt{
+    display: flex;
+    width: 100%;
+}
+
+.listt .left{
+    display: flex;
+    width: 40%;
+    margin: 10px 0;
+    padding: 0 30px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.listt .right{
+    display: flex;
+    width: 50%;
+    margin: 10px 0;
+    padding: 0 30px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.list .hinh1{
+    display: flex;
+    width: 40%;
+    margin: 10px 0;
+    padding: 0 30px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list .cap{
+    display: flex;
+    width: 50%;
+    margin: 20px 0;
+    padding: 0 30px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.list .mid{
+    position: relative;
+    margin: 10px;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+}
+
 .info {
     margin-left: 15px;
 }
@@ -94,7 +171,7 @@ a {
     text-align: center;
 }
 
-.profile-below .left .follow{
+.profile-below .left .photo{
     background: linear-gradient(20deg,#2aabe8 -20%,#892ece 100%);
     padding: 10px 30px;
     text-align: center;
@@ -104,7 +181,7 @@ a {
 }
 
 
-.profile-below .left .follow:hover{
+.profile-below .left .photo:hover{
     box-shadow: 0 4px 20px rgb(92 66 236 / 70%);
     opacity: .8;
     transition: all .3s;
